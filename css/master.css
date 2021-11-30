@@ -1,0 +1,107 @@
+body, h1, h2, h3{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab"
+}
+
+section.content{
+  width: 75%;
+  margin: 0 auto;
+}
+
+section#maintitle{
+  width: 100vw;
+  height: 26vw;
+
+  background-image: url("../imgs/Kiel_Institute_for_the_World_Economy_(logo).png");
+  background-size: 363px 274px;
+  background-position-x: 5%;
+  background-position-y: 90%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 2em;
+  padding-left: 4em;
+
+}
+
+div#hero-text h1{
+  color: #000;
+  font-size: 4em;
+
+}
+
+div#hero-text h3{
+  color: #909090;
+  font-size: 1em;
+}
+
+div#imagebox{
+  width: 100%;
+}
+
+div#imagebox img{
+  width: 75%;
+  height: 75%;
+  margin-left: 10em;
+  margin-right: auto;
+}
+
+div#imagebox-half img{
+  float: right;
+  width: 41%;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+div#lists {
+  display: flex;
+  flex-direction: row;
+}
+
+div#titles {
+  display: flex;
+  flex-direction: row;
+}
+
+ol#col-4 {
+  columns: 4;
+  column-gap: 2.35em;
+  font-size: .9em;
+  font-weight: 300;
+}
+
+ul#reading {
+  font-size: .9em;
+  font-weight: 300;
+}
+
+ul#links {
+  font-size: .9em;
+  font-weight: 300;
+}
+
+figcaption{
+  float: right;
+  width: 10%;
+  border: solid;
+  border-width: .1em;
+  padding: .3em;
+  margin-right: -.7em;
+  margin-left: 1em;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h4{
+  font-weight: 700;
+}
+
+div#titles{
+  font-weight: 300;
+}
